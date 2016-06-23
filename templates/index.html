@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"  data-ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>ADCM</title>
+     <script src="{{ url_for('static', filename='bower_components/angular/angular.min.js') }}"></script>
+</head>
+<body>
+        <label>Name:</label>
+    <input type="text" data-ng-model="yourName" placeholder="Enter a gene name here">
+    <hr>
+    <h1>Hello {{ yourName |angular}}!</h1>
+</body>
+</html>
