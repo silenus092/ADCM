@@ -1,0 +1,29 @@
+{
+  "name": "ADCM",
+  "homepage": "https://github.com/silenus092/ADCM",
+  "description": "Thesis",
+  "main": "templates/index.html",
+  "keywords": [
+    "bowe",
+    "angular",
+    "bootstrap",
+    "c++",
+    "python",
+    "flask"
+  ],
+  "authors": [
+    "Kunaphas Kongkitimanon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.7",
+    "bootstrap": "^3.3.6"
+  }
+}
